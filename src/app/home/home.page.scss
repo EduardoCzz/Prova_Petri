@@ -1,0 +1,47 @@
+#posicionamento {
+  padding-top: 20%;
+  padding-left: 10%;
+}
+
+
+@keyframes color {
+  0% {
+    background: #33CCCC;
+  }
+
+  20% {
+    background: #33CC36;
+  }
+
+  40% {
+    background: #B8CC33;
+  }
+
+  60% {
+    background: #FCCA00;
+  }
+
+  80% {
+    background: #33CC36;
+  }
+
+  100% {
+    background: #33CCCC;
+  }
+}
+
+body {
+  background: #33CCCC;
+  /* Fallback */
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+
+}
+
+ion-input:hover {
+  --background: rgb(153, 159, 160);
+  --color: white;
+  --placeholder-color: white;
+
+}
